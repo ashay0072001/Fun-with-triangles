@@ -8,7 +8,7 @@ const sides = document.querySelectorAll(".base-height")
 function calculateArea(base,height){
 
     const TotalArea = (base*height)/2;
-   return(TotalArea);
+   return Math.abs(TotalArea);
     
 
 }
